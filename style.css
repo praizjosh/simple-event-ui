@@ -1,0 +1,107 @@
+body {
+	background: transparent;
+	font-size: 20px;
+}
+
+#todo-wrapper {
+	max-width: 765px;
+	margin: 15px auto 0;
+}
+
+.skin {
+	background: #F8FBFA;
+    border-radius: 5px;
+    padding: 20px 30px;
+}
+
+::selection {
+    color: #fff;
+    background-color: #66DCED; 
+}
+
+h1	{
+	font-size: 1.7rem;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	color: #C8CBD3;
+    padding: 15px; 
+}
+
+.card-block {
+    cursor: grab;
+    padding: 15px; 
+    margin: 25px 15px;
+    background: #fff;
+    -webkit-box-shadow: 0 7px 15px rgba(0,0,0,.1);
+    box-shadow: 0 7px 15px rgba(0,0,0,.1);
+	border-left: solid 15px #86D9C9;
+	border-radius: 3px;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+.card-block:hover {
+    -webkit-transform: translateY(-2px);
+    -ms-transform: translateY(-2px);
+    transform: translateY(-2px);
+    -webkit-box-shadow: 0 8px 20px rgba(0,0,0,.1);
+    box-shadow: 0 8px 20px rgba(0,0,0,.1);
+}
+
+.card-body {
+	text-align: left;
+	color: #555;
+    font-size: 1.5rem;
+    line-height: 22px;
+    font-weight: 700;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.card-body span {
+	font-size: .8em;
+	opacity: .3;
+	margin-bottom: 60px;
+}
+
+.styled-btn1 {
+	border: 3px solid #fff;
+    border-radius: 50em;
+    display: inline-block;
+    color: #fff;
+    background-color: #66DCED;
+    transform: none;
+    line-height: 20px;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 10px 22px;
+    -webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,.15);
+    box-shadow: 0px 3px 5px 0px rgba(0,0,0,.15);
+}
+
+.styled-btn1:active {
+  background-color: #5dc8d8;
+  box-shadow: 0 4px #ccc;
+  transform: translateY(3px);
+}
+
+.styled-btn2 {
+	border: 3px solid #fff;
+    border-radius: 50em;
+    display: inline-block;
+    color: #fff;
+    background-color: #FECB3F;
+    transform: none;
+    line-height: 20px;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 10px 22px;
+    -webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,.15);
+    box-shadow: 0px 3px 5px 0px rgba(0,0,0,.15);
+}
+
+.styled-btn2:active {
+  background-color: #e8b939;
+  box-shadow: 0 4px #ccc;
+  transform: translateY(3px);
+}
